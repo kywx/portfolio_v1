@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Kylie Hu
+EMAIL: kylieh2@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kylie Hu">
+  <meta name="description" content="My personal portfolio">
+   <!-- you would link to an external stylesheet here! -->
+   <!-- you would also link to Bootstrap here! -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="styles.css">
+  <title>Personal Portfolio</title>
+</head>
+<body>
+    <nav class="nav-bar">
+      <div class="nav-left" id="home">
+        <a href="#home" class="logo" alt="logo"> <img src="assets/Bun1.png" alt="Blue bunny"> </a>
+        <h1 class="my-name"> Kylie Hu </h1>
+      </div>
+
+      <div class="nav-right">
+        
+          <a href="#projects"> Projects </a>
+          <a href="#about-me"> About Me </a>
+          <a href="#contact"> Contact </a>
+      </div>
+
+    </nav>
+
+    <section class="home" id="home">
+      <div class="landing">
+        <img src="assets/pixil-gif-drawing (1).gif" alt="Welcome gif">
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+      <h1> Projects </h1>
+      <div class="proj">
+        <h2> <a href="https://github.com/kywx/airgradient-grafana" target="_blank"> AirGradient-Grafana Integration </a> </h2>
+        <img src="assets/grafana.png" alt="grafana dashboard">
+        <h5> Displays data collected from the AirGradient air quality monitor's ESP8266 on Grafana. Uses InfluxDB as the database.</h5>
+        <h2> <a href="https://github.com/kywx/Nightmare" target="_blank"> Nightmare </a> </h2> 
+
+        <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="assets/nightmare_game.png" alt="opening scene of Nightmare game">
+            <div class="text">Opening Scene</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="assets/s1.png" alt="in game story scene">
+            <div class="text">Story</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="assets/1.png" alt="in game story scene">
+            <div class="text">Story</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="assets/2.png" alt="in game tutorial scene">
+            <div class="text">Tutorial</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="assets/3.png" alt="level 1">
+            <div class="text">Level 1</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="assets/4.png" alt="level 2">
+            <div class="text">Level 2</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="assets/5.png" alt="level 3">
+            <div class="text">Level 3</div>
+          </div>
+
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span> 
+          </div>
+
+        <h5> A 2D story platformer game developed in Unity with C#. Collaborated with teammates from GDIM 31. </h5>
+        <h2> <a href="https://github.com/kywx/pomoplanner" target="_blank"> Pomoplanner </a> </h2>
+        <img src="assets/pomoplanner.png" alt="pomoplanner unorganized">
+        <h5> A workspace organizer website made in collaboration with others during VenusHacks2023. </h5>
+      </div>
+
+      <div class="rabbits">
+        <img src="assets/pinkBox.png" height="180px" style="float: right;" onmouseover="this.src='assets/Bun2.png'" alt="brown box that turns into a pink bunny">
+        <img src="assets/blueBox.png" height="180px" style="float: right;" onmouseover="this.src='assets/Bun1.png'" alt="brown box that turns into a blue bunny">
+      </div>
+
+    </section>
+    
+    <hr class="line">
+
+    <section class="about-me" id="about-me">
+      <h1> About Me </h1>
+      <div class="ANOTHERBOX">
+        <div class="abou">
+          <div class="about-inside">
+            <h2> Hello, I'm Kylie! </h2>
+            <h3> I'm a 3rd year undergrad Computer Science major at UC Irvine. </h3>
+            <h6> 
+                PLACEHOLDER loram sorea Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt 
+            </h6>
+            <h6> 
+              Skills include : Python, C++, C#... 
+              <!-- add skills in a separate thing + add images -->
+          </h6>
+          </div>
+        </div>
+        <div class="about-right">
+          <img src="assets/Bun3.png" alt="purple bunny" height="200px">
+        </div>
+      </div>
+    </section>
+
+    
+    
+    <hr class="line">
+
+    <section class="contact" id="contact">
+      <h1> Contact </h1>
+      <div class="contac">
+        <div class="contact-inside">
+          <h2> If you want to find me... </h2>
+          <a href="https://github.com/kywx" target=”_blank”><i class="fa fa-github" style='font-size:50px'></i></a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <p>
+    <a href="http://validator.w3.org/check?uri=referer">
+       W3C validator
+    </a>
+  </p>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+body {
+    background-color:rgb(255, 224, 224);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.nav-bar {
+    position: relative;
+    max-height: 75px;
+    background-color:rgb(226, 217, 229);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav-left {
+    display: inline-flex;
+    margin-left: 20px;
+    max-height: 75px;
+}
+
+.nav-left a.logo {
+    height: 65px;
+    bottom: 18px;
+}
+
+.nav-left h1 {
+    font-size: 30px;
+    display:block;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    width: max-content;
+    overflow: hidden;
+    margin: 0;
+    z-index: 0.9;
+}
+
+
+
+.nav-right {
+    float:right;
+    padding-right: 20px;
+}
+
+.nav-right a:hover {
+    background-color: rgba(255, 218, 223, 0.77);
+}
+
+.nav-bar a {
+    display:inline-flex;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 22px 16px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.landing {
+    overflow: hidden;
+    max-height: 500px;
+    margin-bottom: -100px;
+}
+
+.landing img {
+    width: 100%;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+}
+
+.projects h1 {
+    font-size: 70px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.proj h2 {
+    font-size: 30px;
+    margin-left: 45px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.proj a {
+    font-size: 34px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color:rgb(73, 52, 95);
+    
+}
+
+.proj h5 {
+    text-align: center;
+    font-size: large;
+}
+
+.proj img {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about-me h1 {
+    font-size: 70px;
+    margin-left: 40px;
+    text-decoration: overline;
+}
+
+.ANOTHERBOX {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:rgb(226, 217, 229);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.abou {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-inside h2 {
+    font-size: 25px;
+}
+
+.about-inside h6 {
+    font-size: 18px;
+}
+
+.about-right {
+    float: right;
+}
+
+.contact h1 {
+    font-size: 70px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.contac {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-inside h2 {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .proj img {
+        width: 800px;
+    }
+}
+
+.line {
+    border-top: 4px dashed #6d606e;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.rabbits {
+    margin-right: 5%;
+}
+
+.slideshow-container {
+    max-width: fit-content;
+    position: relative;
+    margin: auto;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    bottom: 8px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    color: #f2f2f2;
+    background-color: #eeeeee69;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #1e1e1e;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
